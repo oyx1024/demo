@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 def main():
+    # 这个脚本实现一个简单的回显功能，读取用户输入并原样输出
     try:
         while True:
             user_input = input()
