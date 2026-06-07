@@ -7,7 +7,7 @@ def main():
         while True:
             print("请输入内容（Ctrl+D 或 Ctrl+C 退出）：", end="")
             user_input = input()
-            print(user_input)
+            print(f'你输入了: {user_input}')
     except (EOFError, KeyboardInterrupt):
         pass
 
