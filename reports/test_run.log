@@ -1,0 +1,29 @@
+2026-06-07 11:57:11,473  INFO   conftest.py:53  🌍 环境标识已注入全局变量: env=testing
+2026-06-07 11:57:11,478  INFO   conftest.py:16  ==================================================
+2026-06-07 11:57:11,478  INFO   conftest.py:17    接口测试开始
+2026-06-07 11:57:11,479  INFO   conftest.py:18  ==================================================
+2026-06-07 11:57:11,482  INFO   conftest.py:20  ==================================================
+2026-06-07 11:57:11,483  INFO   conftest.py:21    接口测试结束
+2026-06-07 11:57:11,483  INFO   conftest.py:22  ==================================================
+2026-06-07 11:57:17,262  INFO   conftest.py:53  🌍 环境标识已注入全局变量: env=testing
+2026-06-07 11:57:17,266  INFO   conftest.py:16  ==================================================
+2026-06-07 11:57:17,266  INFO   conftest.py:17    接口测试开始
+2026-06-07 11:57:17,267  INFO   conftest.py:18  ==================================================
+2026-06-07 11:57:17,268  INFO   client.py:22  ➡️  GET https://httpbin.org/get
+2026-06-07 11:57:18,460  INFO   client.py:28  ⬅️  200
+2026-06-07 11:57:18,463  INFO   client.py:22  ➡️  POST https://httpbin.org/post
+2026-06-07 11:57:20,140  INFO   client.py:28  ⬅️  200
+2026-06-07 11:57:20,143  INFO   client.py:22  ➡️  GET https://httpbin.org/status/200
+2026-06-07 11:57:21,167  INFO   client.py:28  ⬅️  200
+2026-06-07 11:57:21,171  INFO   client.py:22  ➡️  GET https://httpbin.org/status/201
+2026-06-07 11:57:22,179  INFO   client.py:28  ⬅️  201
+2026-06-07 11:57:22,182  INFO   client.py:22  ➡️  GET https://httpbin.org/status/404
+2026-06-07 11:57:24,219  INFO   client.py:28  ⬅️  404
+2026-06-07 11:57:24,222  INFO   client.py:22  ➡️  GET https://httpbin.org/status/500
+2026-06-07 11:57:25,490  INFO   client.py:28  ⬅️  500
+2026-06-07 11:57:25,493  INFO   client.py:22  ➡️  GET https://httpbin.org/headers
+2026-06-07 11:57:26,524  INFO   client.py:28  ⬅️  200
+2026-06-07 11:57:26,527  INFO   client.py:22  ➡️  GET https://httpbin.org/delay/3
+2026-06-07 11:57:30,001  INFO   conftest.py:20  ==================================================
+2026-06-07 11:57:30,001  INFO   conftest.py:21    接口测试结束
+2026-06-07 11:57:30,002  INFO   conftest.py:22  ==================================================

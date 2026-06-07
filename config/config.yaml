@@ -1,0 +1,6 @@
+# 环境配置
+base_url: "https://httpbin.org"
+timeout: 10
+
+# 日志级别: DEBUG, INFO, WARNING, ERROR
+log_level: "INFO"
