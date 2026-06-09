@@ -1,5 +1,5 @@
 """pytest 全局 fixture"""
-import pytest
+import pytest  # type: ignore[reportMissingImports]
 from common.client import ApiClient
 from common.logger import logger
 from common.global_vars import GlobalVars as G
